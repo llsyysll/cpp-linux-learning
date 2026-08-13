@@ -1,0 +1,20 @@
+# 忽略所有可执行文件（没有后缀名的编译产物）
+*
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!*.txt
+!*.gitignore
+
+# 忽略编译产生的中间文件
+*.o
+*.obj
+*.exe
+*.out
+
+# 忽略 VS Code 配置
+.vscode/
+
+# 忽略 macOS 系统文件
+.DS_Store
