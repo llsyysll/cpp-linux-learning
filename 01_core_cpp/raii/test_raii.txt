@@ -1,0 +1,2 @@
+Hello, RAII Management!
+This is line 2.
