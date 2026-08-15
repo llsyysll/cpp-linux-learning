@@ -1,5 +1,23 @@
-# 只忽略编译产物
-*.o
-*.obj
+# .gitignore 内容
+# 可执行文件
 *.exe
 *.out
+*.app
+
+# 编译中间文件
+*.o
+*.obj
+*.d
+
+# 临时文件
+*.tmp
+*.log
+*.txt   # ← 忽略所有txt文件
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
