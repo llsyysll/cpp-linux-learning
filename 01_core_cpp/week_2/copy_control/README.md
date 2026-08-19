@@ -72,6 +72,7 @@
 
 # 其他
 ### 关于this/other的对比
+|------|------|------|
 |this	|当前对象的指针	|0x2000（指向 s2）|
 |&s2	|调用对象的地址	|0x2000|
 |other	|被复制对象的引用|引用 s1|
@@ -124,7 +125,7 @@ MyString& operator=(const MyString& other) {
 ```
 ### MyString& operator=(const MyString& other)函数签名解析
 |部分|含义|
-|------|--------|--------|
+|------|------|
 |MyString&|返回值类型：返回当前对象的引用，支持链式赋值（如 a = b = c）|
 |operator=|函数名：赋值运算符重载|
 |(const MyString& other)|参数：被复制对象的常量引用，避免拷贝，只读访问|
