@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <cstring>
-#include <algorithm>
+#include <utility>
 
 class MyString {
 public:
